@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "login with valid input",
+        "description": "",
+        "id": "login;login-with-valid-input",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15396994800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the chrome borwser",
+            "match": {
+              "location": "loginfile.launch_the_chrome_borwser()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name\u003d\u0027username\u0027]\"}\n  (Session info: chrome\u003d79.0.3945.79)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027CDC2-D-CM0NXJ2\u0027, ip: \u002710.236.69.187\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_211\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\\Users\\A08019~1.02\\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:49773}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 57e62b3126d115148d82e801d8a48763\n*** Element info: {Using\u003dname, value\u003dusername}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:400)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:284)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)\r\n\tat skeleton.loginfile.enter_valid_uname_and_pwd(loginfile.java:23)\r\n\tat ✽.enter valid uname and pwd(skeleton/login.feature:5)\r\n",
+              "duration": 70274200,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "enter valid uname and pwd",
+            "match": {
+              "location": "loginfile.enter_valid_uname_and_pwd()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 14700,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Click submit button",
+            "match": {
+              "location": "loginfile.click_submit_button()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 9200,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "close the browser",
+            "match": {
+              "location": "loginfile.close_the_browser()"
+            },
+            "keyword": "* "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "skeleton/login.feature",
+    "tags": []
+  }
+]
